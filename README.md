@@ -1,39 +1,102 @@
-Curriculum <br>
-**Short Specializations** <br>
+# :book: Interview Questions.
+## Topics Covered.
+1. Python List, List Comprehession.
 
-# 0x00. Pascal's Triangle
+## :wrench: Project setup
+```bash
+# Create project directory.
+mkdir ./alx-interview
+cd ./alx-interview
 
-`Algorithm` `Python` `Encapsulation`
+# Create new repo.
+git init
 
-#### Concepts
+# Install python linter.
+pip install pycodestyle==2.8.0
+pip install pep8==1.7.0
+```
 
-_For this project, look at these concepts:_
+# :computer: Projects.
+## [0x00. Pascal's Triangle](0x00-pascal_triangle)
+Pascal triangle interview question.
 
-* [Technical Interview](https://www.alx-intranet.hbtn.io/concepts/100005)
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x00-pascal_triangle
+touch ./0x00-pascal_triangle/README.md
+cd ./0x00-pascal_triangle
+```
 
-## General Requirements
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x00-pascal_triangle)
 
-* Allowed editors: `vi`, `vim`, `emacs`
-* Files interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
-* Files first line exactly shebang `#!/usr/bin/python3`
-* `README.md` file mandatory
-* Code documented and using `PEP 8` style (version 1.7.x)
-* Files executable
+## [0x01 lockboxes](0x01-lockboxes)
+Lockboxes interview question.
 
-## General Learning & Setu
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x01-lockboxes
+touch ./0x01-lockboxes/README.md
+cd ./0x01-lockboxes
+```
 
-`python.py`
-<details>
-  <summary>Click to show/hide file contents</summary>
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x01-lockboxes)
 
-  ```python
-  import sys, argv
-  if __name__ == "__main__":
 
-  class ClassAct:
-  	pass
+## [0x03. Log Parsing](0x03-log_parsing)
+Log Parsing interview question.
 
-  def fn():
-      pass
-  ```
-</details>
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x03-log_parsing
+touch ./0x03-log_parsing/README.md
+cd ./0x03-log_parsing
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x03-log_parsing)
+
+<!---->
+## [0. Island Perimeter](0x09-island_perimeter)
+Island Perimeter interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x09-island_perimeter
+touch ./0x09-island_perimeter/README.md
+cd ./0x09-island_perimeter
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x09-island_perimeter)
+<!---->
+
+<!---->
+## [0. Prime Game](00x0A-primegame)
+Prime game interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x0A-primegame
+touch ./0x0A-primegame/README.md
+cd ./0x09-island_perimeter
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x0A-primegame)
+<!---->
+
+# :man: Author and Credits.
+This project was done by [SE. Mubarak Abdullahi](https://github.com/4mubarak). Feel free to get intouch with me;
+
+:iphone: WhatsApp [+2348118722995](https://wa.me/2348118722995)
+
+:email: Email [muber021@gmail.com](mail to:muber021@gmail.com)
+
+:thumbsup: A lot of thanks to [ALX-Africa Software Engineering](https://www.alxafrica.com/) program for the project requirements.
