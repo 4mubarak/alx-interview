@@ -66,7 +66,7 @@ chmod +x ./0-main.py
 1. [Python sum() Function](https://www.w3schools.com/python/ref_func_sum.asp)
 
 # :man: Author and Credits.
-This project was done by [SE. Mubarak Abdullahi](https://github.com/4mubarak). Feel free to get intouch with me;
+This project was done by [Software Engineer. Mubarak Abdullahi](https://github.com/4mubarak). Feel free to get intouch with me;
 
 :iphone: WhatsApp [+2348118722995](https://wa.me/2348118722995)
 
