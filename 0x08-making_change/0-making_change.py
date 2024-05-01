@@ -1,23 +1,20 @@
 #!/usr/bin/python3
-"""
-Main file for testing
+"""Change making module.
 """
 
 
-def makeChange(coins, amount):
-    """
-    How many of this type of coin can I get with my money? Okay,
-        I'll take that many. Now, how much money do I have left?
-        And how many coins do I have in my pocket?
-    """
-    if amount < 1:
+def makeChange(coins, total):
+    if total <= 0:
         return 0
-    coins.sort(reverse=True)
-    count = 0
+
+    # Create an array to store the minimum number of coins required to reach each value
+    min_coins = [float('inf')] * (total + 1)
+    min_coins[0] = 0
+
     for coin in coins:
-        if amount == 0:
-            break
-        num = amount // coin
-        amount -= num * coin
-        count += num
-    return count if amount == 0 else -1
+        for i in range(coin, total + 1):
+            # Update the minimum number of coins required for each value
+            min_coins[i] = min(min_coins[i], min_coins[i - coin] + 1)
+
+    # Return the minimum number of coins required to reach the total value
+    return min_coins[total] if min_coins[total] != float('inf') else -1
